@@ -6,8 +6,8 @@ require 'angular-leaflet-rails/version'
 Gem::Specification.new do |spec|
   spec.name          = "angular-leaflet-rails"
   spec.version       = AngularLeaflet::Rails::VERSION
-  spec.authors       = ["Tymon Tobolski"]
-  spec.email         = ["i@teamon.eu"]
+  spec.authors       = ["Felix Sperling"]
+  spec.email         = ["f.sperling@gmx.de"]
   spec.description   = %q{angular-leaflet-directive packaged for Rails assets pipeline}
   spec.summary       = %q{angular-leaflet-directive packaged for Rails assets pipeline}
   spec.homepage      = "http://github.com/rails-assets/angular-leaflet-rails"

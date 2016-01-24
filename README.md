@@ -6,10 +6,10 @@
 
 Gem: 0.1.0.8
 
-angular-leaflet-directive: 0.10.0
-requires:
-  angular: 1.x
-  leaflet: 0.7.x
+angular-leaflet-directive: 0.10.0  
+requires:  
+  angular: 1.x  
+  leaflet: 0.7.x  
 
 ## Usage
 

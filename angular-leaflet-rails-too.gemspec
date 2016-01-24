@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'angular-leaflet-rails/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "angular-leaflet-rails"
+  spec.name          = "angular-leaflet-rails-too"
   spec.version       = AngularLeaflet::Rails::VERSION
   spec.authors       = ["Felix Sperling"]
   spec.email         = ["f.sperling@gmx.de"]
-  spec.description   = %q{angular-leaflet-directive packaged for Rails assets pipeline}
-  spec.summary       = %q{angular-leaflet-directive packaged for Rails assets pipeline}
-  spec.homepage      = "http://github.com/rails-assets/angular-leaflet-rails"
+  spec.description   = %q{angular-leaflet-directive packaged for Rails assets pipeline. Forked as the original seems to be abandoned. Comes with angular-leaflet-directive version: 0.10.0}
+  spec.summary       = %q{angular-leaflet-directive packaged for Rails assets pipeline. Forked as the original seems to be abandoned. Comes with angular-leaflet-directive version: 0.10.0}
+  spec.homepage      = "https://github.com/fsperling/angular-leaflet-rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
